@@ -27,7 +27,7 @@ Vite
 _________________________________________________________________
 🔧 Getting Started
 1. Clone the repo
-git clone https://github.com/your-username/react-movie-app.git
+git clone https://github.com/saurabh-006/React-movie-app
 cd react-movie-app
 
 3. Install dependencies

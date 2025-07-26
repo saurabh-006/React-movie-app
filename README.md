@@ -1,12 +1,54 @@
-# React + Vite
+🎬 React Movie App
+A simple movie browsing web app built with React, React Router, Bootstrap, and Axios. Users can view a list of movies with pagination, search movies, and see full details of any selected movie.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🛠 Features
+✅ Responsive layout using Bootstrap
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔍 Search bar to filter movies by title
 
-## Expanding the ESLint configuration
+📄 Movie details page with full info
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📚 Pagination (client-side)
+
+⚡ Axios for API calls
+
+📦 Tech Stack
+React
+
+React Router DOM
+
+Bootstrap / React-Bootstrap
+
+Axios
+
+Vite
+
+_________________________________________________________________
+🔧 Getting Started
+1. Clone the repo
+git clone https://github.com/your-username/react-movie-app.git
+cd react-movie-app
+
+3. Install dependencies
+npm install
+
+4. Run the app locally
+npm run dev
+Open http://localhost:5173 in your browser.
+
+🌐 API Used
+This project uses movie data from:
+
+https://fooapi.com/api/movies
+Update the API base URL in MovieList.jsx and MovieDetails.jsx as needed.
+
+📌 Todo
+ Add live API search support
+
+ Add loading spinners
+
+ Deploy using Vercel or Netlify
+
+📄 License
+MIT — free to use, modify, or share
